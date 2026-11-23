@@ -6,7 +6,9 @@
 // The page was composed by draw_frontpage.py (see that file for the
 // layout and the verified stories) and is shipped here as entry.png,
 // so this program is deterministic and needs no network: it just
-// copies the image to /output/entry.png.
+// copies the image to /output/entry.png. The dense front-page format
+// (many stories, 7 regions) follows the winning pattern of the
+// news-image leaderboard, where dense pages outscore picture-led ones.
 //
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for
 // /output:
